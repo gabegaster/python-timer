@@ -15,8 +15,8 @@ long_description = "\n".join(read("README.md"))
 install_requires = []
 
 setup(
-    name="django-offlinecdn",
-    version=offlinecdn.VERSION,
+    name="python-timer",
+    version=timer.VERSION,
     description=("A wrapper for long-running tasks that iterate over many things, "
                  "printing friendly 'percentage done' messages to standard error."),
     long_description=long_description,
@@ -26,7 +26,7 @@ setup(
     author_email='gabe@datascopeanalytics.com',
     license='MIT',
     packages=[
-        'python-timer',
+        'timer',
     ],
     install_requires=install_requires,
     zip_safe=False,

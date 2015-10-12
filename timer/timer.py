@@ -26,7 +26,6 @@ for stuff in timer.show_progress(range(100)):
 import time
 import sys
 
-
 def get_time_str(num_secs):
     minutes = num_secs * 1. / 60
     hours = minutes / 60
