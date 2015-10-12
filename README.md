@@ -13,3 +13,7 @@ prints (to standard error) :
         : 0.1 min elapsed, 45.0 % done, ETA:   0.3 min
         : 0.2 min elapsed, 65.0 % done, ETA:   0.3 min
         : 0.3 min elapsed, 85.0 % done, ETA:   0.3 min
+
+# install
+
+Now available on the [python-package-index](https://pypi.python.org/pypi). To install, just type `pip install python-timer` from the command-line.
