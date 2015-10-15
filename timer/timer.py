@@ -107,19 +107,3 @@ def get_msg(count, length, now, start):
                      count,
                      get_time_str(time_elapsed / count))
     return msg
-
-
-def test():
-    import StringIO
-
-    sys.stderr = StringIO.StringIO()
-    for j in show_progress(xrange(30),
-                           update_time=1,
-                           length=30):
-        time.sleep(.1)
-    msgs = sys.stderr.getvalue().split("\n")
-    msgs = [i for i in msgs if i]
-    assert len(msgs) == 3
-
-if __name__ == "__main__":
-    test()
