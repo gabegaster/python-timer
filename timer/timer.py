@@ -83,7 +83,7 @@ def get_name_length(iterable, length):
         name = ""  # iterable.__repr__()
     if not hasattr(iterable, "__iter__"):
         raise TypeError("Object %s not iterable" % name)
-    if hasattr(iterable, "__len__") and length is None:
+    elif length is None:
         length = iterable.__len__()
     return name, length
 
